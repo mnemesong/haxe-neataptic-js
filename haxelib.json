@@ -1,0 +1,17 @@
+{
+    "name": "neataptic-js",
+    "license": "MIT",
+    "tags": [
+        "neataptic-js",
+        "neatapticJs"
+    ],
+    "description": "#{description}",
+    "contributors": [
+        "Anatoly-Starodubstev"
+    ],
+    "releasenote": "See Haxe externs for neataptic.js library for evaluating and training custom neural networks/blob/main/README.md",
+    "version": "0.0.1",
+    "url": "Haxe externs for neataptic.js library for evaluating and training custom neural networks",
+    "classPath": "hx/src",
+    "dependencies": {}
+}

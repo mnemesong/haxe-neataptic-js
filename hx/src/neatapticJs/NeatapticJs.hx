@@ -1,0 +1,5 @@
+package neatapticJs;
+
+class NeatapticJs {
+    
+}
