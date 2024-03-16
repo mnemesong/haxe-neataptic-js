@@ -3,15 +3,18 @@
     "license": "MIT",
     "tags": [
         "neataptic-js",
-        "neatapticJs"
+        "neatapticJs",
+        "ml",
+        "neural",
+        "js"
     ],
     "description": "Haxe externs for neataptic.js library for evaluating and training custom neural networks",
     "contributors": [
         "Anatoly-Starodubstev"
     ],
-    "releasenote": "See Haxe externs for neataptic.js library for evaluating and training custom neural networks/blob/main/README.md",
+    "releasenote": "See Haxe externs for neataptic.js library for evaluating and training custom neural https://github.com/mnemesong/haxe-neataptic-js/blob/main/README.md",
     "version": "0.0.2",
-    "url": "Haxe externs for neataptic.js library for evaluating and training custom neural networks",
+    "url": "https://github.com/mnemesong/haxe-neataptic-js",
     "classPath": "hx/src",
     "dependencies": {}
 }
