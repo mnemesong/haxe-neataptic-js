@@ -4,3 +4,5 @@
 --cmd haxe run-test-crossover.hxml
 --cmd haxe run-test-cost.hxml
 --cmd haxe run-test-gating.hxml
+--cmd haxe run-test-connection.hxml
+--cmd haxe run-test-rate.hxml

@@ -1,5 +1,6 @@
 package neatapticJs.methods;
 
+import neatapticJs.methods.Connection;
 import neatapticJs.methods.Gating;
 import neatapticJs.methods.Cost;
 import neatapticJs.methods.Crossover;
@@ -13,4 +14,6 @@ typedef Methods = {
 	var crossover : Crossover;
 	var cost : Cost;
 	var gating : Gating;
+	var connection : Connection;
+	var rate : Rate;
 }

@@ -1,0 +1,5 @@
+--class-path hx/src
+--class-path hx/test
+--main neatapticJsTest.methods.RateTest
+--js ./js/methods/RateTest.js
+--cmd node ./js/methods/RateTest
