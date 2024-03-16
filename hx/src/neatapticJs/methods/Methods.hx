@@ -7,13 +7,15 @@ import neatapticJs.methods.Crossover;
 import neatapticJs.methods.Selection;
 import neatapticJs.methods.Mutation;
 
-typedef Methods = {
-	var activation : Activation;
-	var mutation : Mutation;
-	var selection : Selection;
-	var crossover : Crossover;
-	var cost : Cost;
-	var gating : Gating;
-	var connection : Connection;
-	var rate : Rate;
+@:jsRequire( 'neataptic', 'methods' )
+extern class Methods {
+
+	public static var activation : Activation;
+	public static var mutation : Mutation;
+	public static var selection : Selection;
+	public static var crossover : Crossover;
+	public static var cost : Cost;
+	public static var gating : Gating;
+	public static var connection : Connection;
+	public static var rate : Rate;
 }
