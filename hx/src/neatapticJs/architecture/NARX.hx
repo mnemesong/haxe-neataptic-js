@@ -1,7 +1,7 @@
 package neatapticJs.architecture;
 
-@:jsRequire( 'neataptic', 'achitect.NARX' )
-private extern class NARX extends Network {
+@:jsRequire( 'neataptic', 'architect.NARX' )
+extern class NARX extends Network {
 
 	public function new(
 		inputSize : Float,

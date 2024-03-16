@@ -1,7 +1,7 @@
 package neatapticJs.architecture;
 
-@:jsRequire( 'neataptic', 'achitect.LSTM' )
-private extern class LSTM extends Network {
+@:jsRequire( 'neataptic', 'architect.LSTM' )
+extern class LSTM extends Network {
 
 	public function new( ... nodes : Int );
 }
