@@ -1,8 +1,8 @@
 package neatapticJsTest.methods;
 
-import neatapticJs.NeatapticJs;
+import neatapticJs.methods.Methods;
 
-var selection = NeatapticJs.methods.selection;
+var selection = Methods.selection;
 
 class SelectionTest {
 

@@ -1,9 +1,33 @@
 package neatapticJs.architecture;
 
+import js.lib.Promise;
 import neatapticJs.architecture.Node.NodeState;
 import js.lib.Float64Array;
 import neatapticJs.methods.Mutation;
 import neatapticJs.architecture.Node.NodeConnections;
+
+typedef TrainingData = {
+	input : Array<Float>,
+	output : Array<Float>,
+}
+
+typedef TrainingOptions = {
+	?log : Null<Int>,
+	?error : Null<Float>,
+	?iterations : Null<Int>,
+	?rate : Null<Float>,
+}
+
+typedef EvolveOption = {
+	?mutation : Null<Mutation>,
+	?equal : Null<Bool>,
+	?popsize : Null<Int>,
+	?elitismn : Null<Int>,
+	?log : Null<Int>,
+	error : Null<Float>,
+	?iterations : Null<Int>,
+	mutationRate : Null<Float>,
+}
 
 @:jsRequire( 'neataptic', 'Network' )
 extern class Network {
@@ -22,9 +46,9 @@ extern class Network {
 
 	public var selfcons : Array<Connection>;
 
-	public function activate() : Float;
+	public function activate( data : Array<Float> ) : Float;
 
-	public function noTraceActivate() : Float;
+	public function noTraceActivate( data : Array<Float> ) : Float;
 
 	public function propagate(
 		learningRate : Float,
@@ -60,4 +84,8 @@ extern class Network {
 	public function set( ns : NodeState ) : Void;
 
 	public function clear() : Void;
+
+	public function train( data : Array<TrainingData>, ?opts : TrainingOptions ) : Void;
+
+	public function evolve( data : Array<TrainingData>, ?opts : EvolveOption ) : Promise<Void>;
 }

@@ -1,8 +1,8 @@
 package neatapticJsTest.methods;
 
-import neatapticJs.NeatapticJs;
+import neatapticJs.methods.Methods;
 
-var mutation = NeatapticJs.methods.mutation;
+var mutation = Methods.mutation;
 
 class MutationTest {
 

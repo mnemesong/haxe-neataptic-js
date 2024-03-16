@@ -1,8 +1,8 @@
 package neatapticJsTest.methods;
 
-import neatapticJs.NeatapticJs;
+import neatapticJs.methods.Methods;
 
-var cost = NeatapticJs.methods.cost;
+var cost = Methods.cost;
 
 class CostTest {
 

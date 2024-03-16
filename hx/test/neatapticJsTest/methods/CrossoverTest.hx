@@ -1,8 +1,8 @@
 package neatapticJsTest.methods;
 
-import neatapticJs.NeatapticJs;
+import neatapticJs.methods.Methods;
 
-var crossover = NeatapticJs.methods.crossover;
+var crossover = Methods.crossover;
 
 class CrossoverTest {
 

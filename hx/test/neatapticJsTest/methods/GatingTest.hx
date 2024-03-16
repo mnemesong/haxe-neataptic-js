@@ -1,8 +1,8 @@
 package neatapticJsTest.methods;
 
-import neatapticJs.NeatapticJs;
+import neatapticJs.methods.Methods;
 
-var gating = NeatapticJs.methods.gating;
+var gating = Methods.gating;
 
 class GatingTest {
 

@@ -1,8 +1,8 @@
 package neatapticJsTest.methods;
 
-import neatapticJs.NeatapticJs;
+import neatapticJs.methods.Methods;
 
-var rate = NeatapticJs.methods.rate;
+var rate = Methods.rate;
 
 class RateTest {
 

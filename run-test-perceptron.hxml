@@ -1,0 +1,5 @@
+--class-path hx/src
+--class-path hx/test
+--main neatapticJsTest.architecture.PerceptronTest
+--js ./js/architecture/PerceptronTest.js
+--cmd node ./js/architecture/PerceptronTest

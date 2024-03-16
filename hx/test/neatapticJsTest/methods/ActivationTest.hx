@@ -1,12 +1,12 @@
 package neatapticJsTest.methods;
 
-import neatapticJs.NeatapticJs;
-import neatapticJs.methods.Activation;
+import neatapticJs.methods.Methods;
+
+var activation = Methods.activation;
 
 class ActivationTest {
 
 	public static function testLogistic() {
-		var activation = NeatapticJs.methods.activation;
 		Assert.like( activation.LOGISTIC( -5 ), 0 );
 		Assert.like( activation.LOGISTIC( 5 ), 1 );
 		Assert.like( activation.LOGISTIC( -5, true ), 0 );
@@ -14,7 +14,6 @@ class ActivationTest {
 	}
 
 	public static function testIdentity() {
-		var activation = NeatapticJs.methods.activation;
 		Assert.like( activation.IDENTITY( -5 ), -5 );
 		Assert.like( activation.IDENTITY( 5 ), 5 );
 		Assert.like( activation.IDENTITY( -5, true ), 1 );

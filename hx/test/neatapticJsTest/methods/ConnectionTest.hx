@@ -1,8 +1,8 @@
 package neatapticJsTest.methods;
 
-import neatapticJs.NeatapticJs;
+import neatapticJs.methods.Methods;
 
-var connection = NeatapticJs.methods.connection;
+var connection = Methods.connection;
 
 class ConnectionTest {
 
