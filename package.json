@@ -1,0 +1,23 @@
+{
+  "name": "haxe-neataptic-js",
+  "version": "1.0.0",
+  "description": "Haxe externs for neataptic.js library for evaluating and training custom neural networks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnemesong/haxe-neataptic-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnemesong/haxe-neataptic-js/issues"
+  },
+  "homepage": "https://github.com/mnemesong/haxe-neataptic-js#readme",
+  "dependencies": {
+    "neataptic": "^1.4.7"
+  }
+}

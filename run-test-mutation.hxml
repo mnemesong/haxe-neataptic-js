@@ -1,0 +1,5 @@
+--class-path hx/src
+--class-path hx/test
+--main neatapticJsTest.methods.MutationTest
+--js ./js/methods/MutationTest.js
+--cmd node ./js/methods/MutationTest
