@@ -46,9 +46,9 @@ extern class Network {
 
 	public var selfcons : Array<Connection>;
 
-	public function activate( data : Array<Float> ) : Float;
+	public function activate( data : Array<Float> ) : Array<Float>;
 
-	public function noTraceActivate( data : Array<Float> ) : Float;
+	public function noTraceActivate( data : Array<Float> ) : Array<Float>;
 
 	public function propagate(
 		learningRate : Float,
