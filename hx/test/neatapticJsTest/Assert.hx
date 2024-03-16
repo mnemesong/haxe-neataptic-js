@@ -17,7 +17,7 @@ class Assert {
 
 	public static function like(v1:Float, v2:Float):Void {
 		if (Math.abs(v1 - v2) > 0.05) {
-			throw new Exception("Values are not like");
+			throw new Exception("Values are not like: " + Std.string(v1) + " is not like " + Std.string(v2));
 		}
 	}
 }

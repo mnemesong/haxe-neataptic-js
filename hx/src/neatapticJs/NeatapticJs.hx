@@ -2,7 +2,8 @@ package neatapticJs;
 
 import neatapticJs.methods.Methods;
 
-@:jsRequire('neataptic')
+@:jsRequire( 'neataptic' )
 extern class NeatapticJs {
-	public static var methods:Methods;
+
+	public static var methods : Methods;
 }

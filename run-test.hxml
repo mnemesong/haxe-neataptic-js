@@ -1,3 +1,6 @@
 --cmd haxe run-test-activation.hxml
 --cmd haxe run-test-mutation.hxml
 --cmd haxe run-test-selection.hxml
+--cmd haxe run-test-crossover.hxml
+--cmd haxe run-test-cost.hxml
+--cmd haxe run-test-gating.hxml

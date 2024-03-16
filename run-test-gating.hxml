@@ -1,0 +1,5 @@
+--class-path hx/src
+--class-path hx/test
+--main neatapticJsTest.methods.GatingTest
+--js ./js/methods/GatingTest.js
+--cmd node ./js/methods/GatingTest

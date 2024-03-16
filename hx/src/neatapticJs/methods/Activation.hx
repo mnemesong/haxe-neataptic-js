@@ -1,19 +1,21 @@
 package neatapticJs.methods;
 
+typedef ActivationFunc = ( x : Float, ?der : Bool ) -> Float;
+
 typedef Activation = {
-	function LOGISTIC(x:Float, ?der:Bool):Float;
-	function TANH(x:Float, ?der:Bool):Float;
-	function IDENTITY(x:Float, ?der:Bool):Float;
-	function STEP(x:Float, ?der:Bool):Float;
-	function RELU(x:Float, ?der:Bool):Float;
-	function SOFTSIGN(x:Float, ?der:Bool):Float;
-	function SINUSOID(x:Float, ?der:Bool):Float;
-	function GAUSSIAN(x:Float, ?der:Bool):Float;
-	function BENT_IDENTITY(x:Float, ?der:Bool):Float;
-	function BIPOLAR(x:Float, ?der:Bool):Float;
-	function BIPOLAR_SIGMOID(x:Float, ?der:Bool):Float;
-	function HARD_TAHN(x:Float, ?der:Bool):Float;
-	function ABSOLUTE(x:Float, ?der:Bool):Float;
-	function INVERSE(x:Float, ?der:Bool):Float;
-	function SELU(x:Float, ?der:Bool):Float;
+	var LOGISTIC : ActivationFunc;
+	var TANH : ActivationFunc;
+	var IDENTITY : ActivationFunc;
+	var STEP : ActivationFunc;
+	var RELU : ActivationFunc;
+	var SOFTSIGN : ActivationFunc;
+	var SINUSOID : ActivationFunc;
+	var GAUSSIAN : ActivationFunc;
+	var BENT_IDENTITY : ActivationFunc;
+	var BIPOLAR : ActivationFunc;
+	var BIPOLAR_SIGMOID : ActivationFunc;
+	var HARD_TAHN : ActivationFunc;
+	var ABSOLUTE : ActivationFunc;
+	var INVERSE : ActivationFunc;
+	var SELU : ActivationFunc;
 }
